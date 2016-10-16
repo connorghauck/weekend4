@@ -11,3 +11,9 @@ ALTER TABLE tasks
 ADD COLUMN markedcomplete boolean
 
 --i then went back into postico later and deleted the "complete" column because it was varchar and i wanted a boolean one
+
+INSERT INTO todos (task, markedcomplete)
+VALUES
+('hang out', true),
+('eat chisp', false),
+('spell chips correctly,' false);
