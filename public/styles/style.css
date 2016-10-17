@@ -1,0 +1,25 @@
+table {
+    font-size: 24px;
+    margin: auto;
+    color: #272727
+}
+
+h1, title {
+    margin: auto;
+    text-align: center;
+    color: #272727
+}
+
+body {
+    background-color: #90A9B7;
+}
+
+input#listItem {
+    text-align: center;
+    width: 300px;
+    margin: 0 0 0 30px;
+}
+
+button.delete {
+    background-color: #D2D8B3;
+}
